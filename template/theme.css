@@ -1,0 +1,9 @@
+/*
+ * Every rule is scoped to your template, so it cannot restyle another site.
+ * Images go in ../assets/ and are served from /templates/<key>/.
+ */
+@reference "../../app/globals.css";
+
+[data-template="my-site"] {
+  --color-accent: #1f4e79;
+}

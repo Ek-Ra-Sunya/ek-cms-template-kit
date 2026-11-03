@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/templates/my-site/*": ["./template/*"],
+      "@/*": ["./sdk/*"]
+    }
+  },
+  "include": ["template/**/*.ts", "template/**/*.tsx"]
+}

@@ -1,0 +1,12 @@
+[
+  "@/lib/templates/types",
+  "@/lib/templates/resolve",
+  "@/lib/themes/define-theme",
+  "@/lib/content/cms",
+  "@/lib/content/cms-types",
+  "@/lib/content/cms-home",
+  "@/lib/content/legacy-image",
+  "@/lib/tenant/tenant-context",
+  "@/lib/seo/tenant-seo",
+  "@/components/media/CmsImage"
+]

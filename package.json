@@ -1,0 +1,16 @@
+{
+  "name": "ek-cms-template-kit",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "next": "16.3.8",
+    "react": "19.2.4",
+    "typescript": "^5"
+  }
+}
