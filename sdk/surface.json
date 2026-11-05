@@ -5,6 +5,8 @@
   "@/lib/content/cms",
   "@/lib/content/cms-types",
   "@/lib/content/cms-home",
+  "@/lib/content/cms-collections",
+  "@/lib/content/cms-team",
   "@/lib/content/legacy-image",
   "@/lib/tenant/tenant-context",
   "@/lib/seo/tenant-seo",
