@@ -7,6 +7,7 @@
   "@/lib/content/cms-home",
   "@/lib/content/cms-collections",
   "@/lib/content/cms-team",
+  "@/lib/content/cms-insights",
   "@/lib/content/legacy-image",
   "@/lib/tenant/tenant-context",
   "@/lib/seo/tenant-seo",
