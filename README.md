@@ -1,8 +1,8 @@
 # EK CMS template kit
 
-Build a custom design for your EK CMS site in your own GitHub repo. Each push
-opens a pull request on our side; we review it, and once it is merged and
-released your site uses it. Your content stays in the EK CMS dashboard.
+Build a custom design for your EK CMS site in your own GitHub repo. We review
+your code, copy it into EK CMS, and once it is released your site uses it.
+Your content stays in the EK CMS dashboard.
 
 ## Start
 
@@ -38,12 +38,18 @@ A push that breaks a rule is rejected with the reason shown on the dashboard.
 Reading `process.env`, Node built-ins, `eval`, `dangerouslySetInnerHTML` or
 fetching a fixed URL is allowed but flagged for our reviewer.
 
-## Connect the repo
+## Send it for review
 
-1. Install the EK CMS Template Sync GitHub App on this repo.
-2. In the EK CMS dashboard, open Site settings, Template repository, and enter
-   `owner/name`, the branch (default `main`) and the folder (default `template`).
-3. Push. The card shows each step: In review, Changes requested, Approved, Live.
+1. Push your work and make sure `pnpm typecheck` and `pnpm test` pass.
+2. Send EK CMS support the repo link and the commit you want live. A private
+   repo needs read access for our team.
+3. We review that commit, copy `template/` and `assets/` into EK CMS, and tell
+   you when it is released. Changes after that go the same way: push, then
+   send the new commit.
+
+Automatic sync (install a GitHub App, link the repo in Site settings, and each
+push opens a review on our side) is built but not switched on yet. Until it is,
+the dashboard's Template repository card says it is not available.
 
 There is no local preview in this kit yet. Typecheck and tests catch what the
 sync would reject; the review covers how it looks.
